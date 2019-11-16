@@ -1,6 +1,7 @@
 package com.lanc4r.phoenix.attendance.dao.entity;
 
 import com.lanc4r.phoenix.base.dao.BaseEntity;
+import lombok.Data;
 
 /**
  * @author Lanc4r
@@ -8,6 +9,7 @@ import com.lanc4r.phoenix.base.dao.BaseEntity;
  *
  * 用户表实体类
  */
+@Data
 public class UserEntity extends BaseEntity {
 
     private static final long serialVersionUID = 1L;
@@ -30,81 +32,4 @@ public class UserEntity extends BaseEntity {
     private String createtime;
     private String modifytime;
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Integer getSex() {
-        return sex;
-    }
-
-    public void setSex(Integer sex) {
-        this.sex = sex;
-    }
-
-    public String getBirth() {
-        return birth;
-    }
-
-    public void setBirth(String birth) {
-        this.birth = birth;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public Integer getStatus() {
-        return status;
-    }
-
-    public void setStatus(Integer status) {
-        this.status = status;
-    }
-
-    public String getCreatetime() {
-        return createtime;
-    }
-
-    public void setCreatetime(String createtime) {
-        this.createtime = createtime;
-    }
-
-    public String getModifytime() {
-        return modifytime;
-    }
-
-    public void setModifytime(String modifytime) {
-        this.modifytime = modifytime;
-    }
-
-    @Override
-    public String toString() {
-        return "UserEntity{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", sex=" + sex +
-                ", birth='" + birth + '\'' +
-                ", email='" + email + '\'' +
-                ", status=" + status +
-                ", createtime='" + createtime + '\'' +
-                ", modifytime='" + modifytime + '\'' +
-                '}';
-    }
 }

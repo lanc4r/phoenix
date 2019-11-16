@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lanc4r.phoenix.attendance.dao.IUserTaskDao">
+
+    <insert id="addUserTask" parameterType="java.util.Map">
+        INSERT INTO ${tableName} (user_id, task_id, complete_flag, mark, date)
+        VALUES (
+          #{userTask.user_id}, #{userTask.task_id}, #{userTask.complete_flag}, #{userTask.mark},
+          #{userTask.date})
+    </insert>
+
+</mapper>

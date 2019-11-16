@@ -1,11 +1,13 @@
 package com.lanc4r.phoenix.statistic.dao.entity;
 
 import com.lanc4r.phoenix.base.dao.BaseEntity;
+import lombok.Data;
 
 /**
  * @author Lanc4r
  * @create 2019-11-11 6:38 PM
  */
+@Data
 public class UserStatisticEntity extends BaseEntity {
 
     private static final long serialVersionUID = 1L;

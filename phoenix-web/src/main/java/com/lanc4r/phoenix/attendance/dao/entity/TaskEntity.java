@@ -1,6 +1,7 @@
 package com.lanc4r.phoenix.attendance.dao.entity;
 
 import com.lanc4r.phoenix.base.dao.BaseEntity;
+import lombok.Data;
 
 /**
  * @author Lanc4r
@@ -8,6 +9,7 @@ import com.lanc4r.phoenix.base.dao.BaseEntity;
  *
  * 任务表实体类
  */
+@Data
 public class TaskEntity extends BaseEntity {
 
     private static final long serialVersionUID = 1L;
