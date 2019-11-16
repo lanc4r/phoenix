@@ -2,6 +2,7 @@ package com.lanc4r.phoenix.utils.util.Collection;
 
 import com.google.common.collect.Lists;
 
+import java.util.Collection;
 import java.util.List;
 
 /**
@@ -11,7 +12,7 @@ import java.util.List;
  * 集合类型工具类
  *
  */
-public class LCollectionUtils {
+public class LCollectionUtils{
 
     /**
      * 将一组数据固定分组，每组n个元素

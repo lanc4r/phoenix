@@ -1,6 +1,7 @@
 package com.lanc4r.phoenix.utils.util.Encrypt;
 
-import com.lanc4r.phoenix.des.DesPlus;
+
+import com.lanc4r.phoenix.utils.des.DesPlus;
 
 /**
  * @author Lanc4r

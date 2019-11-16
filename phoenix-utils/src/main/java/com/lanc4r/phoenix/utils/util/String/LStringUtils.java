@@ -1,7 +1,8 @@
 package com.lanc4r.phoenix.utils.util.String;
 
-import com.lanc4r.phoenix.consts.MainConsts;
-import org.springframework.util.CollectionUtils;
+
+import com.lanc4r.phoenix.utils.consts.MainConsts;
+import org.apache.commons.collections.CollectionUtils;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
