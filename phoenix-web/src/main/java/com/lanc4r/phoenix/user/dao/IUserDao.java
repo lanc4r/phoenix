@@ -1,6 +1,6 @@
-package com.lanc4r.phoenix.attendance.dao;
+package com.lanc4r.phoenix.user.dao;
 
-import com.lanc4r.phoenix.attendance.dao.entity.UserEntity;
+import com.lanc4r.phoenix.user.dao.entity.UserEntity;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;

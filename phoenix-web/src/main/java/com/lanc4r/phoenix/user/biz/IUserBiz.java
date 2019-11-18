@@ -1,6 +1,7 @@
-package com.lanc4r.phoenix.attendance.biz;
+package com.lanc4r.phoenix.user.biz;
 
-import com.lanc4r.phoenix.attendance.dao.entity.UserEntity;
+
+import com.lanc4r.phoenix.user.dao.entity.UserEntity;
 
 /**
  * @author Lanc4r

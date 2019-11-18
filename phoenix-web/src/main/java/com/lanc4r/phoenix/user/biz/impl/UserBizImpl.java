@@ -1,12 +1,10 @@
-package com.lanc4r.phoenix.attendance.biz.impl;
+package com.lanc4r.phoenix.user.biz.impl;
 
-import com.lanc4r.phoenix.attendance.biz.IUserBiz;
-import com.lanc4r.phoenix.attendance.dao.IUserDao;
 import com.lanc4r.phoenix.attendance.dao.IUserTaskDao;
-import com.lanc4r.phoenix.attendance.dao.entity.UserEntity;
 import com.lanc4r.phoenix.attendance.dao.entity.UserTaskEntity;
-import com.lanc4r.phoenix.utils.util.Number.NumberUtils;
-import com.lanc4r.phoenix.utils.util.String.LStringUtils;
+import com.lanc4r.phoenix.user.biz.IUserBiz;
+import com.lanc4r.phoenix.user.dao.IUserDao;
+import com.lanc4r.phoenix.user.dao.entity.UserEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
